@@ -21,7 +21,15 @@ public class GameController : MonoBehaviour
         for(int i = 0; i < chosenWord.Length; i++)
         {
             char letter = chosenWord[i];
-            hiddenWord += "_ ";
+            if (char.IsWhiteSpace(letter))
+            {
+                hiddenWord += " ";
+            }
+            else
+            {
+                hiddenWord += "_";
+            }
+            
         }
         wordToFindField.text = hiddenWord;
     }
