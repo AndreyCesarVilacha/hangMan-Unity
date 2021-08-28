@@ -1234,6 +1234,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeField: {fileID: 395608018}
+  wordToFindField: {fileID: 1567626193}
 --- !u!4 &1207509861
 Transform:
   m_ObjectHideFlags: 0
